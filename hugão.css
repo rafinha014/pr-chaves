@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+
+body {
+    background: rgb(121,0,0);
+    background: linear-gradient(90deg, rgba(121,0,0,1) 0%, rgba(9,9,121,1) 56%, rgba(85,133,0,1) 100%);
+    font-size: 22px;
+    line-height: 32px;
+    color: white;
+    word-wrap: break-word !important;
+    font-family: "Open Sans", sans-serif;
+    margin: none;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: left;
+    margin-top: 100px;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: arial;
+    color: #000000;
+}
+
+div {
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.header {
+    margin-top: 0;
+    background: #0c0145;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2px;
+    align-items: center;
+}
+
+#container {
+    margin: 0;
+}
+
+.menu {
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 5px;
+}
+
+.corpo1 {
+    background-color: white;
+    border-radius: 15px;
+}
+
+main {
+    margin: 80px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-geral-esquerda div.box-texto h1  {
+     font-size: 44px;
+     color: #ffffff;
+     line-height: 42px;
+     position: relative;
+}
+ 
+.box-geral-esquerda div.box-texto h1:before {
+     content: "";
+     position: absolute;
+     border-bottom: 3px solid #ffffff;
+     width: 150px;
+     left:0;
+     bottom:0
+}
+
+::selection {
+     color: rgb(255, 0, 0);
+}
+ 
+p {
+     color: #000000;
+}
